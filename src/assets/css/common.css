@@ -1,0 +1,154 @@
+.el-dialog {
+  text-align: left;
+}
+
+.el-dialog__header {
+  padding: 0;
+  margin: 0;
+}
+
+.dialog-header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #0A53A4;
+}
+.dialog-header h3 {
+  padding-left: 15px;
+}
+
+.el-dialog__body {
+  padding: 7px 0 2px 0;
+  margin: 7px 0 7px 0;
+}
+
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background: 0 0;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  z-index: 2;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #fff;
+}
+
+.el-dialog__headerbtn i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.el-dialog__headerbtn i:hover {
+  background-color: #0A4B92;
+}
+
+a {
+  color: #0070d2;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+
+.el-dialog-form {
+  border-bottom: solid 1px #EFEEEC;
+  padding: 8px 0 6px 10px;
+}
+.message-content  img{
+  max-width:60%;
+}
+#messageList .el-dialog--center .el-dialog__body {
+  text-align: initial;
+  padding: 0;
+}
+.edui-editor-bottomContainer{
+  display: none;
+}
+.inpt-area{
+  width: 100%;
+  padding: 0px;
+  line-height: 32px;
+  height: 32px;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+  border:none;
+  border-bottom:1px solid #ccc;
+  max-height: 96px;
+  overflow: auto;
+}
+.el-message-box{
+  width: auto;
+}
+.el-collapse-item__arrow{
+  margin: 0 8px 0 2px;
+}
+.el-collapse-item__header{
+  background-color: #346ABB;
+  color:#fff;
+}
+.ppgroupp .el-collapse-item__content{
+  padding-bottom: 0px;
+}
+.ppgroupp .el-card__header{
+  padding:0px;
+  height: 38px;
+  line-height: 38px;
+}
+.ppgroupp .list-container .el-card{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  text-indent: 10px;
+}
+.ppgroupp .list-container .el-card__body{
+  padding: 0px;
+
+}
+.ppgroupp .el-tabs--border-card{
+  background-color: #21A0FF;
+  color:#fff;
+  border:none;
+}
+.ppgroupp .el-tabs--border-card>.el-tabs__content {
+  padding: 0px;
+}
+
+.channel-header  .el-form-item{
+    margin-bottom: 0px;
+  }
+.channel-header .el-form .el-form-item .el-form-item__label{
+  color: #97B8DD;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.wrapinfo{
+  position: fixed;
+  top: 120px;
+    /* bottom: 100px; */
+    right: 20px;
+    background-color: #fff;
+    z-index: 99999;
+    left: 20px;
+    height: 250px;
+  background-color: #fff;
+  z-index: 99999;
+  border-radius: 10px;
+}
+.closeinfo{
+  text-align: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -48px;
+    left: 50%;
+    margin-left: -20px;
+}
