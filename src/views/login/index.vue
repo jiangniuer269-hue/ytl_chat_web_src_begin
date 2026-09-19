@@ -11,9 +11,9 @@
       <div class="login-container" v-show="orgin == 2">
         <el-form :model="loginForm" :rules="rules" ref="loginForm" autoComplete="on" label-position="left">
           <div class="login-header">
-            <div class="login-title-container">
+           <!-- <div class="login-title-container">
               <strong class="login-title">客服系统</strong>
-          </div>
+          </div>-->
             <div class="profile-image"></div>
           </div>
           <div class="login-content">
@@ -29,7 +29,7 @@
                 <QRCanvas id="p_code" :options="p_code"/>
             </el-form-item>
 
-            <el-button class="login-button" type="primary" :loading="loadingVisible" @click.native.prevent="doLogin">登录</el-button>
+            <el-button class="login-button" type="primary" :loading="loadingVisible" @click.native.prevent="doLogin">登 录</el-button>
           </div>
           <div class="login-footer">
 
@@ -342,7 +342,7 @@ return;*/
   width: 390px;
   margin: 0px auto;
   padding: 0px;
-  background-color: #fff;
+  background-color: #4d8af0;
 }
 
 .login-header {
@@ -374,7 +374,7 @@ return;*/
     color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 15px;
-    background-image: url(../../assets/images/undefined-user.png);
+    background-image: url(../../assets/images/kefulog1.png);
   }
 }
 
@@ -396,6 +396,8 @@ return;*/
   }
   .login-button {
     width: 100%;
+    font-size: 18px;
+    font-weight: 700; 
   }
 }
 
