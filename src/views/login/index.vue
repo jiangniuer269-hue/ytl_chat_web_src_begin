@@ -341,6 +341,7 @@ return;*/
 .login-container {
   width: 390px;
   margin: 0px auto;
+  margin-left: 900px;
   padding: 0px;
   background-color: #4d8af0;
 }

@@ -26,7 +26,7 @@ html,body{
     /* 3. 设置背景图在容器中的对齐位置（例如居中） 
   background-position: center; */
     /* 1. 保持背景图原始尺寸，不主动放大或缩小 
-  background-size: auto; */
-   padding-left: 600px;
+  background-size: auto; 
+   padding-left: 600px;*/
 }
 </style>
